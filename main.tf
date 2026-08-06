@@ -15,7 +15,7 @@ resource "null_resource" "ubuntu_runbook_setup" {
   connection {
     type        = "ssh"
     user        = var.ubuntu_user
-    host        = var.var.ubuntu_ip
+    host        = var.ubuntu_ip
     private_key = file("~/.ssh/id_rsa")         # Points to your newly generated Mac SSH key
   }
 
