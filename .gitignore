@@ -1,0 +1,14 @@
+# Local directory for data source plugins
+.terraform/
+
+# Hide local state files (These contain your secrets and server details!)
+*.tfstate
+*.tfstate.backup
+
+# Hide crash logs or execution logs
+*.log
+crash.log
+
+# Hide custom variable files if you use them later
+*.tfvars
+*.tfvars.json
